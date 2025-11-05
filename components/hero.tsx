@@ -40,8 +40,8 @@ export default function Hero() {
             >
                 {/* Place ta photo ici: /public/avatar.jpg */}
                 <Image
-                    src="/avatar.jpg"
-                    alt="Photo Claudin"
+                    src="/photo.jpg"
+                    alt="Claudin SAINTIL"
                     width={600}
                     height={600}
                     className="object-cover w-full h-full"
