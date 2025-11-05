@@ -40,7 +40,7 @@ export default function Hero() {
             >
                 {/* Place ta photo ici: /public/avatar.jpg */}
                 <Image
-                    src="/photo.jpg"
+                    src="/avatar.jpg"
                     alt="Claudin SAINTIL"
                     width={600}
                     height={600}
