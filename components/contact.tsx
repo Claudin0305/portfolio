@@ -38,7 +38,7 @@ export default function Contact() {
                     <input value={form.name} onChange={e => setForm({ ...form, name: e.target.value })} className="w-full border dark:border-gray-600 rounded px-3 py-2 bg-gray-50 dark:bg-gray-900" placeholder="Ton nom" required />
                     <input type="email" value={form.email} onChange={e => setForm({ ...form, email: e.target.value })} className="w-full border dark:border-gray-600 rounded px-3 py-2 bg-gray-50 dark:bg-gray-900" placeholder="Ton email" required />
                     <textarea value={form.message} onChange={e => setForm({ ...form, message: e.target.value })} className="w-full border dark:border-gray-600 rounded px-3 py-2 bg-gray-50 dark:bg-gray-900" placeholder="Message" required />
-                    <button type="submit" className="px-4 py-2 rounded bg-black text-white dark:bg-white dark:text-black">Envoyer</button>
+                    <button type="submit" className="px-4 py-2 rounded bg-black text-white dark:bg-white dark:text-black cursor-pointer">Envoyer</button>
                 </form>
                 {status && <p className="mt-2 text-sm text-green-500">{status}</p>}
             </motion.div>
